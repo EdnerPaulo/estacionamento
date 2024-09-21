@@ -1,0 +1,37 @@
+.cliente{
+    text-align: center;
+    border: transparent;
+    background-color: blue;
+    
+    
+}
+header{
+    margin: 75px;
+    padding: 0px;
+}
+    
+h2{
+    text-align: center;
+}
+
+body{
+    background-color: rgb(41, 41, 202);
+    text-align: center;
+}
+.caixinha{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.cliente{
+    margin: 10px;
+    background-color: rgb(42, 7, 182);
+    border: 10px double rgb(20, 7, 134) ;
+    color: rgb(234, 233, 243);
+    border-radius: 50px; /* aredondamento da borda*/
+    padding: 25px; /*Espaço de dentro ou interno*/
+    box-shadow: 0px 0px 10px 5px #06004d;
+    width: 30%;
+    height: 30%;
+}
